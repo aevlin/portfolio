@@ -166,19 +166,23 @@ body {
 }
 
 .profile-img {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background: var(--primary);
+    background-color: #007bff; /* your fav blue */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
-    color: white;
-    font-weight: 800;
-    border: 8px solid white;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /* Section Styling */
 .section {
